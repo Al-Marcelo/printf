@@ -6,7 +6,6 @@
  */
 int _printf(const char * const format, ...)
 {
-<<<<<<< HEAD
 	match m[] = {
 		{"%c", printf_char}, {"%s", printf_string}, {"%%", print_37}, {"%d", print_dec},{ "%i", print_int}, {"%r", print_revs}
 };
@@ -55,7 +54,6 @@ Here:
 			{
 				length += p[j].function(args);
 				i = i + 2;
->>>>>>> 6e49542f79ae35ef44d0e5ddf0c87237866a4345
 				goto Here;
 			}
 			j--;
