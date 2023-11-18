@@ -7,7 +7,7 @@
 int _printf(const char * const format, ...)
 {
 	match m[] = {
-		{"%c", printf_char}, {"%s", printf_string}, {"%%", print_37}, {"%d", print_dec},{ "%i", print_int}, {"%r", print_revs}
+		{"%c", printf_char}, {"%s", printf_string}, {"%%", print_37}, {"%d", print_d},{ "%i", print_int}, {"%r", print_revs}
 };
 	va_list args;
 	int i = 0, len = 0;
